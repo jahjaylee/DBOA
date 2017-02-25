@@ -1,6 +1,12 @@
 (function($) {
     "use strict"; // Start of use strict
 
+    $('input.button').click(function() {
+      $('div#mc_embed_signup').hide();
+      $('div.header-content-inner').append("<p class=\"sign-up-success\"> Thanks for signing up! <p>");
+    });
+
+
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
