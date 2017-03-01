@@ -71,6 +71,10 @@ section {
 aside {
   padding: 50px 0;
 }
+.logo-image {
+  height: 283px;
+  width: 283px;
+}
 .no-padding {
   padding: 0;
 }
@@ -186,12 +190,13 @@ header .header-content .header-content-inner h1 {
   font-size: 30px;
 }
 header .header-content .header-content-inner hr {
-  margin-top: -25px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.7);
+  color: black;
+  opacity: .7;
   font-size: 16px;
   margin-bottom: 20px;
 }
