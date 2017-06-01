@@ -25,6 +25,19 @@ a {
   transition: all 0.35s;
   color: #F05F40;
 }
+
+.transbox {
+  margin: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffffff;
+  border: 1px solid white;
+  opacity: 0.5;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
 a:hover,
 a:focus {
   color: #eb3812;
